@@ -21,17 +21,16 @@ Rise 360's Embed block expects externally hosted content. Upload the HTML file
 (or the folder containing it) to an HTTPS-accessible host, then add an Embed
 block in Rise and paste an iframe that points to the hosted file.
 
-Example iframe, replacing YOUR_HOSTED_URL with the real HTTPS URL:
+Example iframe, replacing YOUR_HOSTED_URL with the real HTTPS URL: https://aitormaa.github.io/Support-Conversation-Simulator/
 
 <iframe
-  src="YOUR_HOSTED_URL/SupportConversationSimulator-Rise360.html"
+  src="https://aitormaa.github.io/Support-Conversation-Simulator/"
   title="Support Conversation Simulator"
   width="100%"
   height="1100"
   style="border:0; display:block;"
-  allow="clipboard-write"
-></iframe>
-
+  allow="clipboard-write">
+</iframe>
 If your hosting platform provides an embed snippet, use that snippet directly
 in Rise instead. The component is responsive and can also be opened directly
 in a browser for testing.
